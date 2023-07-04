@@ -1,14 +1,26 @@
 ---
 layout: default
-title: Neural Networks
+title: "Welcome to my blog"
+permalink: :basename
 ---
 
-Welcome to our Neural Networks site. This site serves as a resource for all things related to neural networks, deep learning, and artificial intelligence.
+Welcome to My Home Page
 
-Browse our categories and explore the variety of content that we have.
+{% assign date = '2020-04-13T10:20:00Z' %}
+
+- Original date - {{ date }}
+- With timeago filter - {{ date | timeago }}
+
+I'm glad you are here. I plan to talk about ...
+     - python
+     - ctf
+     - cybersecurity
+     - formatting
+     - developing code
 
 ## Categories
 
+<!--
 - [Forensics](/forensics)
   - [Fetch](/forensics/fetch)
   - [Perfectly Disinfected](/forensics/perfectly_disinfected)
@@ -35,5 +47,4 @@ Browse our categories and explore the variety of content that we have.
   - [Hidden Figures](/web/hidden_figures)
   - [Marmalade5](/web/marmalade5)
   - [Star Wars](/web/star_wars)
-
-Enjoy your exploration!
+-->
