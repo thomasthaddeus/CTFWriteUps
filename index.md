@@ -12,8 +12,8 @@ Welcome to My Home Page
 - With timeago filter - {{ date | timeago }}
 
 I'm glad you are here. I plan to talk about ...
-     - python
-     - ctf
+     - Python
+     - CTF
      - cybersecurity
      - formatting
      - developing code
